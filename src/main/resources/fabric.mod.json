@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": ["${author}"],
+  "contact": {
+    "homepage": "${homepage}",
+		"sources": "${sources}",
+		"issues": "${issues}",
+		"discord": "${discord}"
+	},
+  "license": "${license}",
+  "icon": "${icon}",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": ["${id}.mixins.json"],
+  "depends": {
+    "fabricloader": "${constraint_fabric_loader}",
+    "minecraft": "${constraint_minecraft}",
+    "java": "${constraint_java}"
+  },
+  "accessWidener": "${id}.accesswidener"
+}
