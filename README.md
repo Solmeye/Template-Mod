@@ -1,2 +1,2 @@
 ## Template Mod
-A template mod for everyone
+A multiloader mod template for everyone
