@@ -3,7 +3,8 @@
   "package": "${group}.mixin",
   "compatibilityLevel": "JAVA_${java_target}",
   "mixins": [
-    "MinecraftMixin"
+    "MinecraftMixin",
+    "MinecraftServerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
