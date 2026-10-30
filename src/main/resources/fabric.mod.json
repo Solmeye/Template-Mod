@@ -19,7 +19,8 @@
   "depends": {
     "fabricloader": "${constraint_fabric_loader}",
     "minecraft": "${constraint_minecraft}",
-    "java": "${constraint_java}"
+    "java": "${constraint_java}",
+    "fabric-resource-loader-v0": "*"
   },
   "accessWidener": "${id}.accesswidener"
 }
