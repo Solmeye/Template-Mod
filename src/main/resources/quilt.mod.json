@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-	"quilt_loader": {
-	  "group": "${group}",
-		"id": "${id}",
-		"version": "${version}",
-		"depends": [
-  		{
-  			"id": "minecraft",
-  			"versions": "${constraint_minecraft}"
-  		},
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "${id}",
+    "version": "${version}",
+    "depends": [
+      {
+        "id": "minecraft",
+        "versions": "${constraint_minecraft}"
+      },
       {
         "id": "quilt_resource_loader",
         "versions": "*",
         "unless": "fabric-resource-loader-v0"
       }
-		],
-		"intermediate_mappings": "net.fabricmc:intermediary",
-		"metadata": {
-			"name": "${name}",
-			"description": "${description}",
-			"contributors": {
-				"${author}": "Author"
-			},
-			"contact": {
-				"homepage": "${homepage}",
-				"sources": "${sources}",
-				"issues": "${issues}",
-				"discord": "${discord}"
-			},
-			"license": "${license}",
-			"icon": "${icon}"
-		}
-	},
-	"mixin": "${id}.mixins.json",
+    ],
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "metadata": {
+      "name": "${name}",
+      "description": "${description}",
+      "contributors": {
+        "${author}": "Author"
+      },
+      "contact": {
+        "homepage": "${homepage}",
+        "sources": "${sources}",
+        "issues": "${issues}",
+        "discord": "${discord}"
+      },
+      "license": "${license}",
+      "icon": "${icon}"
+    }
+  },
+  "mixin": "${id}.mixins.json",
   "accessWidener": "${id}.accesswidener"
 }
