@@ -1,43 +1,43 @@
-# modLoader="javafml"                           # default
-# loaderVersion=""                              # default
+# modLoader="javafml"
+# loaderVersion=""
 license="${license}"
-# showAsResourcePack=false                      # default
-# showAsDataPack=false                          # default
-# services=[]                                   # useless
-# properties={}                                 # useless
+# showAsResourcePack=false
+# showAsDataPack=false
+# services=[]
+# properties={}
 issueTrackerURL="${issues}"
 
 [[mods]]
 modId="${id}"
-# namespace                                     # default
+# namespace
 version="${version}"
 displayName="${name}"
 description="${description}"
 iconFile="${icon}"
 bannerFile="${icon}"
-# logoFile="${icon}"                            # DEPRECATED see iconFile and bannerFile
-# logoBlur=true                                 # default
+# logoFile="${icon}"
+# logoBlur=true
 updateJSONURL = "https://api.modrinth.com/updates/${modrinth_id}/forge_updates.json?neoforge=only"
-# modUrl                                        # "Unused" as of 10.04.26 https://docs.neoforged.net/docs/gettingstarted/modfiles/
-# credits=""                                    # useless
+# modUrl
+# credits=""
 authors="${author}"
 displayURL="${homepage}"
-# enumExtensions=                               # useless
-# featureFlags=                                 # useless
+# enumExtensions=
+# featureFlags=
 
 [[mixins]]
 config="${id}.mixins.json"
-# requiredMods=[""]                             # useless
-# behaviorVersion=""                            # useless
+# requiredMods=[""]
+# behaviorVersion=""
 
-#[[accessTransformers]]                         # default
-#file="META-INF/accesstransformer.cfg"          # default
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
 
 [[dependencies.${id}]]
     modId="minecraft"
     type="required"
-    # reason=""                                 # TODO
+    # reason=""
     versionRange="${maven_minecraft}"
-    # ordering="NONE"                           # default
-    # side="BOTH"                               # default
+    # ordering="NONE"
+    # side="BOTH"
     referralUrl="https://www.minecraft.net/en-us/about-minecraft"
