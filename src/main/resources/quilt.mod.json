@@ -15,7 +15,7 @@
 			"name": "${name}",
 			"description": "${description}",
 			"contributors": {
-				"${author}": "Owner"
+				"${author}": "Author"
 			},
 			"contact": {
 				"homepage": "${homepage}",
