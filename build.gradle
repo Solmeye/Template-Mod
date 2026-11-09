@@ -23,7 +23,6 @@ def modProps = [
         "constraint_minecraft"      : constraint_minecraft,
         "loader_version"            : loader_version,
         "constraint_fabric_loader"  : constraint_fabric_loader,
-        "constraint_java"           : constraint_java,
         "maven_minecraft"           : maven_minecraft,
         "java_target"               : java_target,
         "modrinth_id"               : modrinth_id
