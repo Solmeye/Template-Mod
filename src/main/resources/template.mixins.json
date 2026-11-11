@@ -3,9 +3,12 @@
   "package": "${group}.mixin",
   "compatibilityLevel": "JAVA_${java_target}",
   "mixins": [
-    "MinecraftMixin",
     "MinecraftServerMixin"
   ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   },
