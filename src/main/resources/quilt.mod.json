@@ -29,7 +29,7 @@
         "discord": "${discord}"
       },
       "license": "${license}",
-      "icon": "${icon}"
+      "icon": "assets/${id}/icon.png"
     }
   },
   "mixin": "${id}.mixins.json",

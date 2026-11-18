@@ -19,7 +19,6 @@ def modProps = [
         "issues"                    : issues,
         "discord"                   : discord,
         "license"                   : license,
-        "icon"                      : icon,
         "constraint_minecraft"      : constraint_minecraft,
         "loader_version"            : loader_version,
         "constraint_fabric_loader"  : constraint_fabric_loader,

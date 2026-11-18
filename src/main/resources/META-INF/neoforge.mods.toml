@@ -13,9 +13,9 @@ modId="${id}"
 version="${version}"
 displayName="${name}"
 description="${description}"
-iconFile="${icon}"
-bannerFile="${icon}"
-# logoFile="${icon}"
+iconFile="assets/${id}/icon.png"
+bannerFile="assets/${id}/icon.png"
+# logoFile="assets/${id}/icon.png"
 # logoBlur=true
 updateJSONURL = "https://api.modrinth.com/updates/${modrinth_id}/forge_updates.json?neoforge=only"
 # modUrl

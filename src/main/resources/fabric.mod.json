@@ -12,7 +12,7 @@
     "discord": "${discord}"
   },
   "license": "${license}",
-  "icon": "${icon}",
+  "icon": "assets/${id}/icon.png",
   "environment": "*",
   "entrypoints": {},
   "mixins": ["${id}.mixins.json"],
