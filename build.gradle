@@ -1,10 +1,11 @@
 plugins {
-	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 }
 
 dependencies {
 	minecraft "com.mojang:minecraft:${minecraft_version}"
-	implementation "net.fabricmc:fabric-loader:${loader_version}"
+	modImplementation "net.fabricmc:fabric-loader:${loader_version}"
+	mappings loom.officialMojangMappings()
 }
 
 def modProps = [
@@ -99,4 +100,8 @@ jar {
     from(generateAT) {
         into("META-INF")
     }
+}
+
+remapJar {
+    archiveFileName = "${id}-${version}+${minecraft_version}.jar"
 }
