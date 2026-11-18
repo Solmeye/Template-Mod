@@ -60,7 +60,7 @@ def generateAT = tasks.register("generateAT") {
 
     doLast {
         def lines = aw.readLines("UTF-8")
-            .findAll { it && !it.startsWith("#") && !it.startsWith("accessWidener") }
+            .findAll { it && !it.startsWith("#") && !it.startsWith("accessWidener") && !it.startsWith("classTweaker") }
 
         def result = lines.collect { line ->
             def p = line.trim().split(/\s+/)
